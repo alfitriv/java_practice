@@ -15,10 +15,12 @@ public class main {
 
         public myObject()
         {
-
+            isAlive = true;
+            name = "Lion";
+            age = 12;
         }
 
     }
     myObject animal = new myObject();
-    //belum selesai
+
 }

@@ -10,12 +10,23 @@ public class main {
 
     class dog extends Animal
     {
-        string bark;
+        public String getSoundForDog(String bark1) {
+            return bark1;
+        }
     }
 
     class cat extends Animal
     {
-        string meow;
+        public String getSoundForCat(String meow1) {
+            return meow1;
+        }
+    }
+
+    class Animal{
+        public String setSound(String bark, String meow){
+             bark1 = bark;
+             meow1 = meow;
+        }
     }
 
 }

@@ -8,25 +8,29 @@ public class main {
     dgn properties bark (string) untuk Dog nya, dan properties meow(string) untuk Cat,
     setelah membuat dua object tersebut, panggil properties masing2 object tsb (4 points)*/
 
-    class dog extends Animal
+
+
+    public class Dog extends Animal
     {
-        public String getSoundForDog(String bark1) {
-            return bark1;
+        public String bark; //setting the property
+        public String getSoundForDog() {
+            this.bark = "bark";
+            return bark;
         }
+
     }
 
-    class cat extends Animal
+    public class Cat extends Animal
     {
-        public String getSoundForCat(String meow1) {
-            return meow1;
+        public String meow; //setting the property
+        public String getSoundForCat() {
+            this.meow = "meow";
+            return meow;
         }
     }
 
     class Animal{
-        public String setSound(String bark, String meow){
-             bark1 = bark;
-             meow1 = meow;
-        }
+
     }
 
 }

@@ -12,12 +12,19 @@ Lalu buat satu variable lgi yg menggabungkan 3 variable sebelumnya. Finally, pri
  */
 
 public class main {
-    static String name1 = "we";
-    static String name2 = "love";
-    static String name3 = "gojek";
-    static String combine = name1 + " " + name2 + " " + name3;
+    public static void main(String[] args) {
+        String name1 = "we";
+        String name2 = "love";
+        String name3 = "gojek";
+        String combine = name1 + " " + name2 + " " + name3;
 
-    public static void test() {
         System.out.println(combine);
+
+
+
     }
 }
+
+
+
+

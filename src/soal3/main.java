@@ -9,11 +9,11 @@ lalu print variable tsb (1 point)
  */
 
 public class main {
-    static int length;
-    static int height;
-    static double calculate = (length * height/2);
+    public static void main(String[] args) {
+        double length = 2;
+        double height = 4;
+        double calculate = (length * height/2);
 
-    public static void test() {
         System.out.println(calculate);
     }
 }
